@@ -4,7 +4,6 @@
 using namespace std;
 class Solution {
     public:
-    
     //QUESTION 1
     int binarySearch(int arr[], int target, int n) {
         int low = 0;
@@ -22,7 +21,6 @@ class Solution {
         }
         return -1;
     }
-    
     int linearSearch(int arr[], int target, int n) {
         for (int i = 0; i < n; i++) {
             if (arr[i] == target) {
@@ -76,15 +74,13 @@ class Solution {
         }
         return low + 1;
     }
-    
-   
+
+
    //QUESTION 4 
-   
    //PART A 
     void concatenate(string s, string t) {
         cout << s + " " + t;
     }
-    
     
     //PART B
     void reverse(string s) {
@@ -98,7 +94,6 @@ class Solution {
         }
         cout << s;
     }
-    
     
     //PART C
     void deleteVowels(string s) {
@@ -136,10 +131,7 @@ class Solution {
         cout << s;
     }
     
-    
-    
     //QUESTION 5
-    
     //PART A
     void sparseMatrix(int arr[], int n) {
         for (int i = 0; i < n; i++) {
@@ -153,8 +145,7 @@ class Solution {
             cout << endl;
         }
     }
-    
-    
+       
     //PART B
     void triDiagonal(int arr[], int n) {
         for (int i = 0; i < n; i++) {
@@ -168,8 +159,7 @@ class Solution {
             cout << endl;
         }
     }
-    
-    
+     
     //PART C
     void triangle(int arr[], int n) {
         int k = 0;
@@ -215,7 +205,6 @@ class Solution {
     
     
     //QUESTION 6
-    
     //PART A
     void transpose(int a[][3], int b[][3]) {
         b[0][0] = a[0][1];
@@ -235,7 +224,6 @@ class Solution {
             }
         }
     }
-    
     
     //PART B
     void add(int a[][3], int b[][3], int c[][3]) {
@@ -270,8 +258,7 @@ class Solution {
     
         c[0][2] = k - 1;
     }
-    
-    
+      
     //PART C
     void multiplication(int a[][3], int b[][3], int c[][3]) {
         int k = 1;
@@ -320,7 +307,6 @@ class Solution {
         }
         return cnt;
     }
-    
     
     //QUESTION 8
     int distinctEl(vector<int> &arr, int n) {
